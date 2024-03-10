@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+    <title> listas y tablas </title>
+    <meta charset="UTF-8">
+    <meta name="Felipe Ortiz" content="Hoja de vida">
+    <meta name="description" content="Hoja de vida">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+   </head> 
+
+   <body class="reach">
+
+    <header> <div class="banner"><img src="img/hoja.png" ></div></header>
+            <Nav class="enlaces"> 
+                <ol>
+                   <li> <a href="index.html">Inicio</a></li> &nbsp;
+                   <li><a href="experiencia.html">Experiencia Laboral</a></li> &nbsp;
+                   <li class="menu">Hobbies
+                        <ul class="submenu">
+                            <li><a href="music.html"> Musica</a></li>
+                            <li><a href="videos.html"> Videos</a></li>
+                            <li><a href="books.html">Libros</a></li>
+                        </ul></li> &nbsp;
+                   <li><a href="contacto.html">Contacto</a></li>&nbsp;
+                </ol>   
+            </Nav>
+            
+    <br>
+    <section>
+        <article>
+            <div class="form">
+                <h2>¡¡Contactame!!</h2>
+                <form action="recibir.php" method="get">
+                    <label>Nombre: <input type="text" required name="nombre" autofocus></label>
+                <br><br>
+                <label>Apellidos: <input type="text" name="ape" size="25" maxlength="18"></label> <br><br>
+                <label> Sexo: Hombre <input type="radio" name="Sexo" value="H">Mujer <input type="radio" name="sexo" value="M"> <input type="radio" name="sexo" value="otro">Otro</label><br><br>
+                <label > Email: <input type="email"name="correo" multiple></label><br><br>
+                <label > Telefono: <input type="tel"name="Telefono"></label><br><br>
+                <label > <textarea name="area" cols="50" rows="4" minlength="5" maxlength="250">Que te parecio la pagina, Danos tu opinion!!</textarea></label><br><br>
+                <label> Pais donde te ubicas: <br><br><select> name= "país"
+                    <option value="España"> España</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Colombia" selected="Selected">Colombia</option>
+                    <option value="Brazil"> Brazil</option>
+                    <option value="Argentina"> Argentina</option>
+                    <option value="Ecuador"> Ecuador</option>
+                    <option value="Peru"> Peru</option>
+                    <option value="Uruguay"> Uruguay</option>
+                    <option value="Portugal"> Portugal</option>
+
+
+                </select> </label> <br><br>
+
+                <label> <input type="checkbox" value="acepta" name="condiciones" checked="checked"> Acepto condiciones</label><br><br>
+                    <div class="boton">
+                        <p><input type="reset" value="Borrar"></p>
+                        <p><input type="submit" value="Enviar"></p>
+                    </div>
+                <div class="address"> <iframe src="https://www.google.com/maps/d/embed?mid=17V2LTiPMlxoqMd5L4nnrcM5AC1I&hl=es&ehbc=2E312F" width="500   " height="400"></iframe></div>
+                </form>
+                <br>
+            </div>
+        </article>
+    </section>    
+    <footer class="pie5"> <b>© TODOS LOS DERECHOS RESERVADOS BRANDON FELIPE ORTIZ HERRERA </b> <br>
+        <b>  prohibida la reproduccion por cualquier medio </b> </b> <br>
+     </footer>
+    </body>
+</html> 
